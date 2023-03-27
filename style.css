@@ -477,6 +477,7 @@ li a{
 }
 
 
+
 @media only screen and (max-width: 958px){
     .nf-hero-nav{
         padding: 1rem;
@@ -501,11 +502,17 @@ li a{
 
 @media only  screen and (max-width:768px) {
     .sect-one{
-        flex-direction: column;
-        text-align: center;
+        flex-direction:column ;
+        flex-wrap: wrap;
+        
+    }
+    .div1{
+        width: 100%;
+        padding: 10px;
     }
     .sect-three{
         flex-flow:column ;
+
         text-align: center;
         padding: 7rem;
         flex-wrap: wrap;
@@ -599,7 +606,7 @@ li a{
         display: flex;
        flex-direction: column;
        gap: 18%;
-      flex-flow: row; 
+       
     }
     
 h1{
@@ -609,6 +616,20 @@ h1{
     text-align: center;
     text-align: center;
 }
-
+footer{
+    flex-direction: column;
 }
+.btn2{
+    margin: 2px 43px;
+    
+}
+
+.net{
+    display: flex;
+    justify-content: left;
+    text-align: left;
+    margin: 0 43px;
+}
+}
+
 
